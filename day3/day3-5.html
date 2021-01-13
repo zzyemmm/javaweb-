@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h2 id="h2">
+        引入js文件
+    </h2>
+
+</body>
+<script type="text/javascript" src="../js/jquery.min.js"></script>
+<script type="text/javascript">
+    $(function () {
+       // var h2 = document.getElementById('h2');
+        var h2 = $('#h2')//未定义
+        alert(h2.innerHTML);
+    });
+</script>
+
+</html>

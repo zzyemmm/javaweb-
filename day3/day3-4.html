@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script type="text/javascript">
+        //1.对象方法
+        //定义对象并进行初始化
+        var student = {
+            sname : "老马",
+            sage :18,
+            //定义方法
+            info:function(){
+                return this.sname + "" + this.sage;
+            }
+        };
+
+        console.log(student);
+        //添加属性
+        student.address = '山西省吕梁市';
+        console.log(student);
+
+        //添加方法
+        student.info2 = function() {
+            return this.sname + "" + this.address;
+        }
+        console.log(student);
+        console.log(student.info);
+        console.log(student.info2);
+
+        //如果重复申明一个对象var student;打印出来查看有无变化
+        var student = {
+            sname : "老黑",
+
+            //定义方法
+            info:function(){
+                return this.sname ;
+            }
+        };
+        console.log(student);
+        console.log(student.sage);
+        //重复声明不会报错，而是直接把之前创建的对象覆盖了
+    </script>
+</body>
+</html>
