@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>新冠肺炎疫情详情</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/footer.css">
+
+</head>
+<body>
+
+    <!--1.标题：全国疫情/全球疫情-->
+    <!--<header>
+        <h1>全国疫情数据可视化</h1> <a href="world.html" target="_blank">全球疫情</a>
+    </header>-->
+    <div class="header">
+        <span>全国疫情数据</span> &nbsp;&nbsp;<a href="world.html" target="_blank">全球疫情</a>
+    </div>
+    <!--2.时间：当前系统的时间-->
+    <div class="time">当前时间:<span id="nowtime"></span></span></div>
+    <!--3.左边的图1-->
+    <div class="left1">
+        <div id="left_1" style="width: 450px;height:350px;"></div>
+    </div>
+    <!--4.左边的图2-->
+    <div class="left2">左边的图2</div>
+    <!--5.中间的div1-->
+    <div class="mid1">
+
+        <div class="num"><h1>97779</h1></div>
+        <div class="num"><h1>4</h1></div>
+        <div class="num"><h1>91515</h1></div>
+        <div class="num"><h1>4800</h1></div>
+
+        <div class="text"><h2>累计确诊</h2></div>
+        <div class="text"><h2>现有疑似</h2></div>
+        <div class="text"><h2>累积治愈</h2></div>
+        <div class="text"><h2>累积死亡</h2></div>
+    </div>
+    <!--6.中间的div2-->
+    <div class="mid2">
+        <div class="map">中国地图展示</div>
+    </div>
+
+    <!--7.右边的图1-->
+    <div class="right1">
+        <div id="right_1" style="width: 450px;height:350px;"></div>
+    </div>
+    <!--8.右边的图2-->
+    <div class="right2">右边的图2</div>
+
+    <!--尾部-->
+    <!--版权-->
+    <div class="banquan">
+        <div class="banquan_nav">
+            <div class="foot_logo">
+                <p class="foot_pics"><img src="img/foot2.png" alt=""></p>
+                <p class="banquan_p">坚定信心、同舟共济、科学防治、精准施策，坚决打赢疫情防控阻击战！</p>
+                    　　
+            </div>
+            <div class="info">
+                <p class="detail_info">了解更多</p>
+                <p class="yq_pic i1"><img src="img/yq.png" alt=""></p>
+            </div>
+            <!--===============-->
+
+            <!--版权-->
+            <div class="banquan_div">
+                <a href="http://jishi.cntv.cn/special/djsb/mlzg/index.shtml" target="_blank">关于美丽中国·纪录片</a><span></span><span>|</span><span></span>
+
+                <a href="https://www.bilibili.com/blackboard/privacy-pc.html" target="_blank">服务与隐私</a><span></span><span>|</span><span></span>
+                <a href="https://www.bilibili.com/blackboard/contact.html" target="_blank">联系我们</a><span></span><span>|</span><span></span>
+                <a href="http://help.baidu.com/newadd?prod_id=1&category=4" target="_blank">用户反馈</a><span></span><span>|</span><span></span>
+                <a href="https://www.cctv.com/gyys/index.shtml?spm=0.P87085035897.En9CqZ5t6KuD.1" target="_blank">总台之声</a><span></span><span>|</span><span></span>
+                <p class="banquan_zi">2020-2030 © 百度™ zzy.com All rights reserved. Version v5.57 email:847464807@qq.com
+                    山西运城11010502023470 运城学院1155号</p>
+                <p class="lianjie_p">友情链接：
+                    <a href="https://news.qq.com/" target="_blank">腾讯新闻</a>
+                    <a href="https://www.bilibili.com/" target="_blank">哔哩哔哩</a>
+                    <a href="https://www.huya.com/" target="_blank">虎牙直播</a>
+                    <a href="https://www.autohome.com.cn/beijing/" target="_blank">汽车之家</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/main.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/echarts.min.js"></script>
+<script type="text/javascript" src="theme/westeros.js"></script>
+<script type="text/javascript" src="chart/right1.js"></script>
+<script type="text/javascript" src="chart/left1.js"></script>
+</html>
